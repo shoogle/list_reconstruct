@@ -1,0 +1,15 @@
+# This file tells Git which files and directories should never be committed.
+# These are files that we don't want to upload and share with other developers.
+
+
+# Backup and autosave files
+*~
+
+# Python generated files
+__pycache__
+*.pyc
+
+# Archives and compressed files
+*.zip
+*.gz
+*.tgz
